@@ -1,0 +1,8 @@
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config TEST_DEVICE
+	bool "Test Device for Zephyr DTS"
+	depends on GPIO
+	help
+	  Enable test device
